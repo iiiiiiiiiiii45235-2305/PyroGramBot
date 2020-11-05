@@ -9,7 +9,7 @@ from pyrobot import (
 from pyrobot.helper_functions.cust_p_filters import f_onw_fliter
 
 # -- Constants -- #
-ALIVE = "ചത്തിട്ടില്ലാ..."
+ALIVE = "i am alive..."
 HELP = "CAADAgAD6AkAAowucAABsFGHedLEzeUWBA"
 REPO = ("User / Bot is available on GitHub:\n"
         "https://github.com/SpEcHiDe/PyroGramBot")

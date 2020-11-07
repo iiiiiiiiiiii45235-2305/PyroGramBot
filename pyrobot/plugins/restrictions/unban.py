@@ -33,5 +33,5 @@ async def un_ban_user(_, message):
                 f"<a href='tg://user?id={user_id}'>"
                 f"{user_first_name}"
                 "</a> to"
-                " You can join the group!
+                " You can join the group!"
             )

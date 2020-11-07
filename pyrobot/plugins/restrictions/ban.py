@@ -34,7 +34,7 @@ async def ban_user(_, message):
                 f"<a href='tg://user?id={user_id}'>"
                 f"{user_first_name}"
                 "</a>"
-                "bannedനു."
+                "banned."
             )
 
 
@@ -73,15 +73,15 @@ async def temp_ban_user(_, message):
     else:
         if str(user_id).lower().startswith("@"):
             await message.reply_text(
-                "user
+                "user"
                 f"{user_first_name}"
                 f" banned for {message.command[1]}!"
             )
         else:
             await message.reply_text(
-                "user
+                "user"
                 f"<a href='tg://user?id={user_id}'>"
-                "he is
+                "he is"
                 "</a>"
                 f" banned for {message.command[1]}!"
             )
